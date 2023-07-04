@@ -3,6 +3,8 @@
 @import "./header.css";
 @import "./hero.css";
 @import "./wrapper.css";
+@import "./menu.css";
+@import "./wrapper3.css";
 
 :root {
     --fontBase: 'Poppins', sans-serif;
@@ -10,6 +12,7 @@
     --headline2: bold 59px/95.462px var(--fontBase);
     --headline3: bold 48px/77.664px var(--fontBase);
     --headline4: bold 34px/55.012px var(--fontBase);
+    --headline4-5: 34px/55.012px var(--fontBase);
     --headline5: bold 24px/38.832px var(--fontBase);
     --body1: 16px/25.888px var(--fontBase);
     --body2: 14px/22.652px var(--fontBase);
@@ -29,5 +32,6 @@ body {
     min-block-size: 100vh;
     font: var(--body1);
     color: var(--purple);
+    scroll-behavior: smooth;
 }
 
