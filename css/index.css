@@ -34,6 +34,10 @@
     --white: #FFFFFF;
 }
 
+::selection {
+    background: orange;
+}
+
 body {
     background: var(--gradient);
     min-block-size: 100vh;
