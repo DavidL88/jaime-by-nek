@@ -10,26 +10,29 @@
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-content">
+                <img src="./images/Heimy.svg" width="70" height="20" alt="Logo de Jaime">
+                <nav aria-label="main-navigation" class="menu">
+                    <ul>
+                        <li>
+                            <a class="is-active" href="#main">Hola</a>
+                        </li>
+                        <li>
+                            <a href="#project">Proyectos</a>
+                        </li>
+                        <li>
+                            <a href="#hablemos">Hablemos</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="button">Curriculum</button>
+            </div>
+        </div>
+    </header>
     <div class="wrapper">
-        <header class="header">
-            <img src="./images/LOGO.png" width="70" height="20" alt="Logo de Jaime">
-            <nav class="menu">
-                <ul>
-                    <li>
-                        <a class="is-active" href="#main">Hola</a>
-                    </li>
-                    <li>
-                        <a href="#project">Proyectos</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Hablemos</a>
-                    </li>
-                </ul>
-            </nav>
-            <button class="button">Curriculum</button>
-        </header>
-        
-        <section class="hero" id="main">
+        <section aria-label="main" class="hero" id="main">
             <div class="hero-image">
                 <img src="./images/heimer2.png" width="338" height="330" alt="Foto de Jaime">
             </div>
@@ -39,12 +42,12 @@
                     <span>Soy Jaime Enrique</span>
                 </h1>
                 <p>Engineer Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
-                <div class="hero-social">
-                    <a class="button-icon" href="tel:8331270220"><img src="./icons/icon-phone.svg" alt="Icono de Teléfono"></a>
-                    <a class="button-icon" href="tel:8331270220"><img src="./icons/icon-important_mail.svg" alt="Icono de Correo"></a>
-                    <a class="button-icon" href="https://www.instagram.com/explore/tags/heimerdinger/?hl=es"><img src="./icons/icon-instagram.svg" alt="Icono de Instagram"></a>
-                    <a class="button-icon" href="https://twitter.com/search?q=heimerdinguer&src=typed_query"><img src="./icons/icon-twitter_squared.svg" alt="Icono de Twitter"></a></div>
-                    <a href="https://signup.leagueoflegends.com/es-mx/signup/redownload" class="button">Descargar Curriculum</a>
+                <div class="social">
+                    <a class="button-icon" href="tel:015527906889"><img src="./icons/icon-phone.svg" alt="Icono de Teléfono"></a>
+                    <a target="_blank" class="button-icon" href="https://support-leagueoflegends.riotgames.com/hc/es-419"><img src="./icons/icon-important_mail.svg" alt="Icono de Correo"></a>
+                    <a target="_blank" class="button-icon" href="https://www.instagram.com/explore/tags/heimerdinger/?hl=es"><img src="./icons/icon-instagram.svg" alt="Icono de Instagram"></a>
+                    <a target="_blank" class="button-icon" href="https://twitter.com/search?q=heimerdinguer&src=typed_query"><img src="./icons/icon-twitter_squared.svg" alt="Icono de Twitter"></a></div>
+                    <a target="_blank" href="https://signup.leagueoflegends.com/es-mx/signup/redownload" class="button">Descargar Curriculum</a>
                 </div>
             </div>
         </section>
@@ -55,23 +58,93 @@
                 <img src="./icons/arrow-down.svg" alt="Icono Flecha para Abajo">
             </div>
         </div>
-        <div class="testimony">
+        <div class="testimony" id="project">
             <div class="testimony-image">
                 <img src="./images/compu-fon.png" alt="">
             </div>
             <div class="testimony-description">
-                <a href="https://www.leagueoflegends.com/es-mx/">Ligadeleyendas.com</a>
+                <a class="testimony-title" target="_blank" href="https://www.leagueoflegends.com/es-mx/">Ligadeleyendas.com</a>
                 <p>Accede a más de 120 inventos que te ayudarán a mejorar tus habilidades de Engineer</p>
-                <a href="#" class="button">VER INVENTO</a>
-                <a href="#" class="button is-secondary">VER CÓDIGO</a>
+                <a target="_blank" href="https://www.youtube.com/shorts/QN_348t2D5E" class="button is-secondary">VER CÓDIGO</a>
+                <a target="_blank" href="https://youtu.be/d2CoViiQcfc?t=5" class="button">VER INVENTO</a>
             </div>
-            
+        </div>    
+        <div class="box">
+            <div class="wrapper3">
+                <img src="./images/heimericon.png" width="80" height="80" alt="">
+                <p>"Heimer ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses"</p>
+                <p>JAIME ENRIQUE / COFUNDADOR Y CEO PILTOVERHEXTECK.COM</p>
+            </div>
         </div>
-        <div class="wrapper3">
-            <img src="./images/heimericon.png" width="80" height="80" alt="">
-            <p>"Heimer ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses"</p>
-            <p>JAIME ENRIQUE / COFUNDADOR Y CEO PILTOVERHEXTECK.COM</p>
+        <div class="testimony">
+            <div class="testimony-image">
+                <img src="./images/iPad.png" alt="">
+            </div>
+            <div class="testimony-description">
+                <a class="testimony-title" target="_blank" href="https://www.disneyplus.com/home">DisneyTrunks.com</a>
+                <p>Es el sitio oficial de Jaime Enrique. Explore películas, personajes, cómics, programas de televisión, videos y más oficiales de Arcane.</p>
+                <a target="_blank" href="https://www.youtube.com/watch?v=xPKN7MxS8TU" class="button is-secondary">VER TRAILER</a>
+                <a target="_blank" href="https://www.netflix.com/title/81435684" class="button">VER SERIE</a>
+            </div>
         </div>
+        <div class="box">
+            <div class="wrapper3">
+                <img src="./images/JAYCE.png" width="80" height="80" alt="">
+                <p>"Heimer ha superado mis expectativas desde el diseño hasta el desarrollo de toda la tecnología Hexteck."</p>
+                <p>JAYCE / COFUNDADOR Y CEO PILTOVERHEXTECK.COM</p>
+            </div>
+        </div>
+        <div class="testimony">
+            <div class="testimony-image">
+                <img src="./images/matrits.png" alt="">
+            </div>
+            <div class="testimony-description">
+                <a class="testimony-title" target="_blank" href="https://www.netflix.com/browse">Nekflix.com</a>
+                <p>Películas y series ilimitadas y mucho más.
+                    Disfruta donde quieras. Cancela cuando quieras.</p>
+                <a target="_blank" href="https://www.youtube.com/watch?v=OkscEokV238" class="button is-secondary">VER TRAILER</a>
+                <a target="_blank" href="https://www.youtube.com/shorts/EWHrrbWF4bY" class="button">VER PLAY</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="wrapper3">
+                <img src="./images/cait.png" width="80" height="80" alt="">
+                <p>"Por primera vez en la historia de nuestra ciudad, aparecimos en todos los periódicos más importantes de Piltover".</p>
+                <p>CAITLYN / POLECEA Y FRANCOTIRADORA</p>
+            </div>
+        </div>
+          <form action="" method="post" class="form">
+            <div class="form-content">
+                <h2 class="title">Hablemos</h2>
+                <p>Si está interesado en trabajar conmigo en su próximo proyecto, 
+                    no dude en ponerse en contacto conmigo.</p>
+                <label for="form-name">Nombre Completo
+                    <input required name="name" id="form-name" type="text" placeholder="Heimy">
+                </label>
+                <label for="form-email">Correo Electrónico
+                    <input required name="email" id="form-email" type="email" placeholder="email">
+                </label>
+                <label for="form-message">Mensaje
+                    <textarea required name="message" placeholder="Mensaje" for="message" id="form-message" cols="30" rows="7"></textarea>
+                </label>
+                <button class="button" type="submit">Enviar Mensaje</button>
+            </div>
+        </form>
+        <footer class="footer" id="hablemos">
+                <div class="footer-logo">
+                    <img src="./images/torresita.png" width="70" height="70" alt="Logo de Jaime">
+                </div>
+                <div class="social">
+                    <a class="button-icon" href="tel:015527906889"><img src="./icons/icon-phone.svg" alt="Icono de Teléfono"></a>
+                    <a class="button-icon" target="_blank" href="https://support-leagueoflegends.riotgames.com/hc/es-419"><img src="./icons/icon-important_mail.svg" alt="Icono de Correo"></a>
+                    <a target="_blank" class="button-icon" href="https://www.instagram.com/explore/tags/heimerdinger/?hl=es"><img src="./icons/icon-instagram.svg" alt="Icono de Instagram"></a>
+                    <a target="_blank" class="button-icon" href="https://twitter.com/search?q=heimerdinguer&src=typed_query"><img src="./icons/icon-twitter_squared.svg" alt="Icono de Twitter"></a></div>
+                </div>
+                <div class="footer-copyright">
+                    <p>Hecho con la 🧪🔬 por Heimer.</p>
+                    <p>Copyright 2021 - Todos los derechos reservados.</p>
+                </div>
+        </footer>
     </div>
 </body>
 </html>

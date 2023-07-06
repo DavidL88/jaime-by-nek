@@ -1,0 +1,40 @@
+.wrapper2 {
+    padding-inline-start: 16px;
+    padding-inline-end: 16px;
+    padding-block-start: 200px;
+    padding-block-end: 200px;
+    margin: auto;
+}
+
+.icon-imagen {
+    text-align: center;
+}
+
+.wrapper2 p {
+    font: var(--headline5-5);
+    text-align: center;
+    justify-content: center;
+}
+
+.wrapper2 p:last-of-type {
+    font: var(--body1bold);
+}
+
+
+@media screen and (min-width: 768px) {
+    .wrapper2 {   
+        order: 1;
+    }
+
+    .wrapper2 p {
+        font: var(--headline4-5);
+        display: flex;
+        gap: 1rem;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .wrapper2 p:last-of-type {
+        font: var(--headline5);
+    }
+}
