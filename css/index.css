@@ -3,7 +3,7 @@
 @import "./header.css";
 @import "./hero.css";
 @import "./wrapper.css";
-@import "./menu.css"; 
+@import "./menu.css";
 @import "./wrapper2.css";
 @import "./wrapper3.css";
 @import "./testimony.css";
@@ -13,32 +13,36 @@
 @import "./title.css";
 
 :root {
-    --fontBase: 'Poppins', sans-serif;
-    --headline1: bold 95px/153.71px var(--fontBase);
-    --headline2: bold 59px/95.462px var(--fontBase);
-    --headline3: bold 48px/77.664px var(--fontBase);
-    --headline4: bold 34px/55.012px var(--fontBase);
-    --headline4-5: 34px/55.012px var(--fontBase);
-    --headline5: bold 24px/38.832px var(--fontBase);
-    --headline5-5: 24px/38.832px var(--fontBase);
-    --body1: 16px/25.888px var(--fontBase);
-    --body2: 14px/22.652px var(--fontBase);
-    --body2: 14px/22.652px var(--fontBase);
-    --body1bold: bold 16px/25.88px var(--fontBase);
-    --button: bold 14px/22.652px var(--fontBase);
-    --caption: 12px/19.416px var(--fontBase);
-    --gradient: radial-gradient(41.85% 33.13% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0.00) 100%), linear-gradient(135deg, #72F2A5 0%, #DF545C 90.63%, #5151E5 100%);
-    --purple: #68e615;
-    --green: #42E2B8;
-    --orange: #FAD7A1;
-    --white: #FFFFFF;
+  --fontBase: "Poppins", sans-serif;
+  --headline1: bold 95px/153.71px var(--fontBase);
+  --headline2: bold 59px/95.462px var(--fontBase);
+  --headline3: bold 48px/77.664px var(--fontBase);
+  --headline4: bold 34px/55.012px var(--fontBase);
+  --headline4-5: 34px/55.012px var(--fontBase);
+  --headline5: bold 24px/38.832px var(--fontBase);
+  --headline5-5: 24px/38.832px var(--fontBase);
+  --body1: 16px/25.888px var(--fontBase);
+  --body2: 14px/22.652px var(--fontBase);
+  --body2: 14px/22.652px var(--fontBase);
+  --body1bold: bold 16px/25.88px var(--fontBase);
+  --button: bold 14px/22.652px var(--fontBase);
+  --caption: 12px/19.416px var(--fontBase);
+  --gradient: radial-gradient(
+      41.85% 33.13% at 2.38% 8.52%,
+      #747de9 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(135deg, #72f2a5 0%, #df545c 90.63%, #5151e5 100%);
+  --purple: rgba(33, 51, 59, 0.678);
+  --green: #42e2b8;
+  --orange: #fad7a1;
+  --white: #ffffff;
 }
 
 body {
-    background: var(--gradient);
-    min-block-size: 100vh;
-    font: var(--body1);
-    color: var(--purple);
-    scroll-behavior: smooth;
+  background: var(--gradient);
+  min-block-size: 100vh;
+  font: var(--body1);
+  color: var(--purple);
+  scroll-behavior: smooth;
 }
-

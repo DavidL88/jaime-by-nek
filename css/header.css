@@ -1,12 +1,13 @@
 .header {
-    position: sticky;
-    top: 0;
-    backdrop-filter: blur(4px);
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(4px);
+  z-index: 3;
 }
 
 .header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    block-size: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  block-size: 80px;
 }
