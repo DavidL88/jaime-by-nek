@@ -23,3 +23,8 @@
 .button:hover {
   filter: brightness(150%);
 }
+
+.button a {
+  color: white;
+  text-decoration: none;
+}
